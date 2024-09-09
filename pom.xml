@@ -9,7 +9,7 @@
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
 
-  <groupId>org.tm-14.microservices</groupId>
+  <groupId>org.tm14.microservices</groupId>
   <artifactId>TM-14</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -17,8 +17,10 @@
   <name>TM-14</name>
   <url>http://maven.apache.org</url>
   <modules>
-    <module>config-repo</module>
     <module>spring-cloud-config-server</module>
+    <module>spring-cloud-naming-server</module>
+    <module>spring-cloud-gateway-server</module>
+    <module>exchange-service</module>
   </modules>
 
   <properties>
